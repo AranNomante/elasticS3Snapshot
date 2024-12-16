@@ -1,0 +1,9 @@
+curl --location --request PUT 'https://localhost:9200/_snapshot/my_s3_repository/testsnapshot' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: ApiKey key' \
+--data '{
+  "indices": "example_index",
+  "ignore_unavailable": false,
+  "include_global_state": false
+}
+'

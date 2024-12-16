@@ -1,0 +1,18 @@
+curl --location 'https://localhost:9200/_security/api_key' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: ••••••' \
+--data '{
+  "name": "my-api-key",
+  "role_descriptors": {
+    "role-a": {
+      "cluster": ["all"],
+      "index": [
+        {
+          "names": ["*"],
+          "privileges": ["all"]
+        }
+      ]
+    }
+  }
+}
+'

@@ -1,0 +1,10 @@
+curl --location --request PUT 'https://localhost:9200/_snapshot/my_s3_repository' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: ApiKey key' \
+--data '{
+  "type": "s3",
+  "settings": {
+    "bucket": "testing.cultofcoders.com"
+  }
+}
+'

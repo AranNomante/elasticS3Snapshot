@@ -1,0 +1,13 @@
+{
+  "date": "2024-12-16T08:30:00.000Z",
+  "firstElasticContainerId": "07ad4eb03e02",
+  "id": "neqWzpMBRdsJR4BwSm77",
+  "name": "my-api-key",
+  "api_key": "ZLVZr07TQDeNOuj663ZGsQ",
+  "encoded": "bmVxV3pwTUJSZHNKUjRCd1NtNzc6WkxWWnIwN1RRRGVOT3VqNjYzWkdzUQ==",
+  "created": true,
+  "token": {
+    "name": "token_qOqzzpMBRdsJR4BwBW67",
+    "value": "AAEAAWVsYXN0aWMvZmxlZXQtc2VydmVyL3Rva2VuX3FPcXp6cE1CUmRzSlI0QndCVzY3OkJHajQydnUzVDlLdXN0STFoaTViU0E"
+  }
+}

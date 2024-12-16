@@ -1,0 +1,2 @@
+curl --location --request POST 'https://localhost:9200/_nodes/reload_secure_settings' \
+--header 'Authorization: Basic key'
