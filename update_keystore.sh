@@ -2,7 +2,7 @@
 #chmod +x update_keystore.sh
 
 # List of Elasticsearch container names
-CONTAINERS=("elastics3snapshot-es01-1" "elastics3snapshot-es02-1" "elastics3snapshot-es03-1")
+CONTAINERS=("elastic-stack-es01-1" "elastic-stack-es02-1" "elastic-stack-es03-1")
 
 # Check for required environment variables
 if [ -z "$S3_ACCESS_KEY" ] || [ -z "$S3_SECRET_KEY" ]; then
