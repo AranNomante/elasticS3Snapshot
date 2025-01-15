@@ -92,6 +92,7 @@ services:
       - xpack.license.self_generated.type=${LICENSE}
       - s3.client.default.region=eu-central-1
       - s3.client.default.endpoint=s3.eu-central-1.amazonaws.com
+      - search.max_buckets=500000
     mem_limit: ${MEM_LIMIT}
     ulimits:
       memlock:
@@ -133,6 +134,7 @@ services:
       - xpack.license.self_generated.type=${LICENSE}
       - s3.client.default.region=eu-central-1
       - s3.client.default.endpoint=s3.eu-central-1.amazonaws.com
+      - search.max_buckets=500000
     mem_limit: ${MEM_LIMIT}
     ulimits:
       memlock:
@@ -174,6 +176,7 @@ services:
       - xpack.license.self_generated.type=${LICENSE}
       - s3.client.default.region=eu-central-1
       - s3.client.default.endpoint=s3.eu-central-1.amazonaws.com
+      - search.max_buckets=500000
     mem_limit: ${MEM_LIMIT}
     ulimits:
       memlock:
